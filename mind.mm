@@ -1949,30 +1949,81 @@
 </richcontent>
 </node>
 <node CREATED="1523198954905" ID="ID_1220753390" MODIFIED="1523199031976" TEXT="docker &#x5e38;&#x7528;&#x547d;&#x4ee4;">
-<node CREATED="1523199032640" ID="ID_378368649" MODIFIED="1523199308127">
+<node CREATED="1523287824098" ID="ID_522257684" MODIFIED="1523287912901">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#25628;&#32034;&#21629;&#20196;&#65288;&#25628;&#32034;docker hub&#20013;&#30340;&#38236;&#20687;&#65289;&#65306;docker search java
+      docker ps --format &quot;{{.Command}}&quot; -a --no-trunc(&#19981;&#26174;&#31034;&#32553;&#20889;)
     </p>
     <p>
-      &#19979;&#36733;&#38236;&#20687;&#65306;docker pull java
+      <font size="2">The formatting option (--format) pretty-prints container output using a Go template. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">Valid placeholders for the Go template are listed below: </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">Placeholder Description </font>
+    </p>
+    <p>
+      <font size="2">.ID Container ID </font>
+    </p>
+    <p>
+      <font size="2">.Image Image ID </font>
+    </p>
+    <p>
+      <font size="2">.Command Quoted command </font>
+    </p>
+    <p>
+      <font size="2">.CreatedAt Time when the container was created. </font>
+    </p>
+    <p>
+      <font size="2">.RunningFor Elapsed time since the container was started. </font>
+    </p>
+    <p>
+      <font size="2">.Ports Exposed ports. </font>
+    </p>
+    <p>
+      <font size="2">.Status Container status. </font>
+    </p>
+    <p>
+      <font size="2">.Size Container disk size. </font>
+    </p>
+    <p>
+      <font size="2">.Names Container names. </font>
+    </p>
+    <p>
+      <font size="2">.Labels All labels assigned to the container. </font>
+    </p>
+    <p>
+      <font size="2">.Label Value of a specific label for this container. For example '{{.Label &quot;com.docker.swarm.cpu&quot;}}' </font>
+    </p>
+    <p>
+      <font size="2">.Mounts Names of the volumes mounted in this container. </font>
+    </p>
+    <p>
+      <font size="2">.Networks Names of the networks attached to this container.</font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1523199312403" ID="ID_1294749206" MODIFIED="1523199433575">
+<node CREATED="1523199312403" ID="ID_1294749206" MODIFIED="1523289261166">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#38236;&#20687;&#21629;&#20196;&#65306;
+      &#38236;&#20687;&#21629;&#20196;&#65306;&#65288;&#25628;&#32034;docker hub&#20013;&#30340;&#38236;&#20687;&#65289;&#65306;docker search java
     </p>
     <ul>
       <li>
@@ -1980,6 +2031,15 @@
       </li>
       <li>
         docker rmi -f(force del)&#160;xxx&#65288;delete images&#65289;
+      </li>
+      <li>
+        docker pull [&#36873;&#39033;] [Docker Registry &#22320;&#22336;[:&#31471;&#21475;&#21495;]/]&#20179;&#24211;&#21517;[:&#26631;&#31614;] &#65288;&#33719;&#21462;&#38236;&#20687;&#65289;
+      </li>
+      <li>
+        docker image prune &#65288;&#21024;&#38500;&#34394;&#24748;&#38236;&#20687; &#21487;&#20219;&#24847;&#21024;&#38500;&#65289;
+      </li>
+      <li>
+        docker image rm $(docker image ls -q redis)
       </li>
     </ul>
   </body>
@@ -2043,7 +2103,7 @@
 </html>
 </richcontent>
 </node>
-<node CREATED="1523199929685" ID="ID_1101750313" MODIFIED="1523202624791">
+<node CREATED="1523199929685" ID="ID_1101750313" MODIFIED="1523372144634">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2087,6 +2147,24 @@
           <li>
             docker rm -f (docker ps -a -q) &#21024;&#38500;&#25152;&#26377;&#23481;&#22120;
           </li>
+          <li>
+            docker container rm trusting_newton(&#26469;&#21024;&#38500;&#19968;&#20010;&#22788;&#20110;&#32456;&#27490;&#29366;&#24577;&#30340;&#23481;&#22120;)
+          </li>
+          <li>
+            docker container prune (&#28165;&#29702;&#25152;&#26377;&#22788;&#20110;&#32456;&#27490;&#29366;&#24577;&#30340;&#23481;&#22120;)
+          </li>
+        </ul>
+      </li>
+      <li>
+        docker container &#36890;&#20449;(Communication)
+
+        <ul>
+          <li>
+            1.docker run -d -p 1111:1111 --name server -h discover spring/spring-eureka-server(&#21046;&#23450;name&amp;hostname)
+          </li>
+          <li>
+            2.docker run -d -p 8080:8080 --link silly_mccarthy:discover&#160; spring/spring-eureka-provider:8080(&#20351;&#29992;--link [name]:[hostname] &#38142;&#25509;&#21363;&#21487;&#36890;&#20449;)
+          </li>
         </ul>
       </li>
     </ul>
@@ -2094,7 +2172,134 @@
 </html>
 </richcontent>
 </node>
-<node CREATED="1523199936106" ID="ID_896987460" MODIFIED="1523199936106" TEXT=""/>
+<node CREATED="1523289472173" ID="ID_1397754060" MODIFIED="1523289568571">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      inspect&#21629;&#20196;&#65306;
+    </p>
+    <ul>
+      <li>
+        docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1523375037001" ID="ID_111741397" MODIFIED="1523375189746">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docker-compose:
+    </p>
+    <ul>
+      <li>
+        cd to docker-compose.yml
+      </li>
+      <li>
+        docker-compose up -d(run in backend)
+      </li>
+    </ul>
+    <div style="white-space: pre; color: #d4d4d4; font-family: Menlo, Monaco, Courier New, monospace; background-color: #1e1e1e; line-height: 18px; font-size: 12px; font-weight: normal" charset="utf-8">
+      <div>
+        <font color="#608b4e">#docker compose use version 2 file format</font>
+      </div>
+      <div>
+        <font color="#569cd6">version</font><font color="#d4d4d4">: </font><font color="#ce9178">'2'</font>
+      </div>
+      <div>
+        <font color="#608b4e">#version 2 file fixed format , service for project</font>
+      </div>
+      <div>
+        <font color="#569cd6">services</font><font color="#d4d4d4">:</font>
+      </div>
+      <div>
+        <font color="#608b4e">#&#25351;&#23450;&#26381;&#21153;&#21517;</font>
+      </div>
+      <div>
+        <font color="#569cd6">spring-eureka-server</font><font color="#d4d4d4">:</font>
+      </div>
+      <div>
+        <font color="#608b4e">#&#25351;&#23450;&#38236;&#20687;</font>
+      </div>
+      <div>
+        <font color="#569cd6">image</font><font color="#d4d4d4">: </font><font color="#ce9178">spring/spring-eureka-server</font>
+      </div>
+      <div>
+        <font color="#569cd6">hostname</font><font color="#d4d4d4">: </font><font color="#ce9178">discover</font>
+      </div>
+      <div>
+        <font color="#569cd6">ports</font><font color="#d4d4d4">: </font>
+      </div>
+      <div>
+        <font color="#d4d4d4">- </font><font color="#ce9178">&quot;1111:1111&quot;</font>
+      </div>
+      <div>
+        <font color="#569cd6">spring-eureka-provider</font><font color="#d4d4d4">:</font>
+      </div>
+      <div>
+        <font color="#569cd6">image</font><font color="#d4d4d4">: </font><font color="#ce9178">spring/spring-eureka-provider:1.0.80</font>
+      </div>
+      <div>
+        <font color="#569cd6">ports</font><font color="#d4d4d4">: </font>
+      </div>
+      <div>
+        <font color="#d4d4d4">- </font><font color="#ce9178">&quot;8080:8080&quot;</font>
+      </div>
+      <div>
+        <font color="#569cd6">links</font><font color="#d4d4d4">:</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">- </font><font color="#ce9178">spring-eureka-server:discover</font>
+      </div>
+      <div>
+        <font color="#569cd6">spring-eureka-provider1</font><font color="#d4d4d4">:</font>
+      </div>
+      <div>
+        <font color="#569cd6">image</font><font color="#d4d4d4">: </font><font color="#ce9178">spring/spring-eureka-provider:1.0.81</font>
+      </div>
+      <div>
+        <font color="#569cd6">ports</font><font color="#d4d4d4">: </font>
+      </div>
+      <div>
+        <font color="#d4d4d4">- </font><font color="#ce9178">&quot;8081:8081&quot;</font>
+      </div>
+      <div>
+        <font color="#569cd6">links</font><font color="#d4d4d4">:</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">- </font><font color="#ce9178">spring-eureka-server:discover</font>
+      </div>
+      <div>
+        <font color="#569cd6">spring-feign-consumer</font><font color="#d4d4d4">:</font>
+      </div>
+      <div>
+        <font color="#569cd6">image</font><font color="#d4d4d4">: </font><font color="#ce9178">spring/spring-feign-consumer:1.0.9001</font>
+      </div>
+      <div>
+        <font color="#569cd6">ports</font><font color="#d4d4d4">: </font>
+      </div>
+      <div>
+        <font color="#d4d4d4">- </font><font color="#ce9178">&quot;9001:9001&quot;</font>
+      </div>
+      <div>
+        <font color="#569cd6">links</font><font color="#d4d4d4">:</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">- </font><font color="#ce9178">spring-eureka-server:discover</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
