@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1512356524019" ID="ID_390331462" MODIFIED="1522945953304" TEXT="JAVA">
-<node CREATED="1512356532750" FOLDED="true" HGAP="9" ID="ID_590950769" MODIFIED="1522945936865" POSITION="right" TEXT="angular js" VSHIFT="56">
+<node CREATED="1512356524019" ID="ID_390331462" MODIFIED="1523462754959" TEXT="JAVA">
+<node CREATED="1512356532750" FOLDED="true" HGAP="8" ID="ID_590950769" MODIFIED="1523462781752" POSITION="right" TEXT="angular js" VSHIFT="-40">
 <node CREATED="1517556891576" ID="ID_1148192205" MODIFIED="1517556911806" TEXT="important attention">
 <node CREATED="1517556913163" ID="ID_139512700" MODIFIED="1517556941321" TEXT="when validate should Add &lt;form&gt;&lt;/form&gt;"/>
 <node CREATED="1517556943136" ID="ID_1364176675" MODIFIED="1517556964725" TEXT="if update page Value not show Add &lt;form&gt;&lt;/form&gt;"/>
@@ -193,7 +193,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1512356556424" FOLDED="true" HGAP="6" ID="ID_349723697" MODIFIED="1522945933858" POSITION="right" TEXT="java" VSHIFT="65">
+<node CREATED="1512356556424" FOLDED="true" HGAP="23" ID="ID_349723697" MODIFIED="1523462784905" POSITION="right" TEXT="java" VSHIFT="-46">
 <node CREATED="1512356562860" FOLDED="true" ID="ID_1465184281" MODIFIED="1522945929874" TEXT="spring boot">
 <node CREATED="1512356669155" ID="ID_1918645245" MODIFIED="1512356700975" TEXT="application">
 <node CREATED="1513162909252" ID="ID_350826338" MODIFIED="1519715382374" TEXT="servlet">
@@ -1506,6 +1506,7 @@
 <node CREATED="1512368729383" ID="ID_246633166" MODIFIED="1512368730510" TEXT="8.6 The Load Balancer EIP"/>
 </node>
 </node>
+<node CREATED="1523462761819" ID="ID_473915213" MODIFIED="1523462775067" POSITION="right" TEXT="Spring Cloud"/>
 <node CREATED="1513334674494" FOLDED="true" ID="ID_401175493" MODIFIED="1522945927004" POSITION="left" TEXT="https">
 <node CREATED="1513334681351" ID="ID_992212847" MODIFIED="1513334698976">
 <richcontent TYPE="NODE"><html>
@@ -1781,7 +1782,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1522945611021" ID="ID_534188607" MODIFIED="1522945616294" POSITION="left" TEXT="Docker">
+<node CREATED="1522945611021" FOLDED="true" ID="ID_534188607" MODIFIED="1523462711826" POSITION="left" TEXT="Docker">
 <node CREATED="1522945619032" FOLDED="true" ID="ID_443100224" MODIFIED="1523202826986">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1945,10 +1946,9 @@
       <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;jar cvfm classes.jar mymanifest -C foo/ .&#160; </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1523198954905" ID="ID_1220753390" MODIFIED="1523199031976" TEXT="docker &#x5e38;&#x7528;&#x547d;&#x4ee4;">
+<node CREATED="1523198954905" FOLDED="true" ID="ID_1220753390" MODIFIED="1523462709219" TEXT="docker &#x5e38;&#x7528;&#x547d;&#x4ee4;">
 <node CREATED="1523287824098" ID="ID_522257684" MODIFIED="1523287912901">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2013,8 +2013,7 @@
       <font size="2">.Networks Names of the networks attached to this container.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1523199312403" ID="ID_1294749206" MODIFIED="1523289261166">
 <richcontent TYPE="NODE"><html>
@@ -2043,8 +2042,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1523199436421" ID="ID_202048820" MODIFIED="1523199880425">
 <richcontent TYPE="NODE"><html>
@@ -2100,8 +2098,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1523199929685" ID="ID_1101750313" MODIFIED="1523372144634">
 <richcontent TYPE="NODE"><html>
@@ -2169,8 +2166,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1523289472173" ID="ID_1397754060" MODIFIED="1523289568571">
 <richcontent TYPE="NODE"><html>
@@ -2187,8 +2183,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1523375037001" ID="ID_111741397" MODIFIED="1523375189746">
 <richcontent TYPE="NODE"><html>
@@ -2297,8 +2292,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
