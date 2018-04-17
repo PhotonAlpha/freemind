@@ -1782,7 +1782,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1522945611021" FOLDED="true" ID="ID_534188607" MODIFIED="1523462711826" POSITION="left" TEXT="Docker">
+<node CREATED="1522945611021" ID="ID_534188607" MODIFIED="1523635185753" POSITION="left" TEXT="Docker">
 <node CREATED="1522945619032" FOLDED="true" ID="ID_443100224" MODIFIED="1523202826986">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2294,6 +2294,55 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1523635186412" ID="ID_1992387291" MODIFIED="1523635191246" POSITION="left" TEXT="&#x52a0;&#x5bc6;&#x65b9;&#x5f0f;">
+<node CREATED="1523635191877" ID="ID_1818371858" MODIFIED="1523635261584">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#31216;&#21152;&#23494;&#65306;AES 128&#20301;&#21152;&#23494;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1523635263628" ID="ID_1514955510" MODIFIED="1523635412516">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19981;&#23545;&#31216;&#21152;&#23494;&#31639;&#27861;REA&#160;&#160;&#20844;&#38053; &#31169;&#38053;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1523979659798" ID="ID_74782071" MODIFIED="1523979666863" POSITION="left" TEXT="mongoDB">
+<node CREATED="1523979667340" ID="ID_211570666" MODIFIED="1523979746909">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      connect:
+    </p>
+    <p style="text-align: left">
+      server: mongod --dbpath /Users/caoqiang/Desktop/workspace/tools/mongoDB/mongodb-osx-x86_64-3.6.4/data/db
+    </p>
+    <p style="text-align: left">
+      client:mongo --host 127.0.0.1:27017
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
