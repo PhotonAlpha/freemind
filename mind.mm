@@ -193,8 +193,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1512356556424" FOLDED="true" HGAP="23" ID="ID_349723697" MODIFIED="1523462784905" POSITION="right" TEXT="java" VSHIFT="-46">
-<node CREATED="1512356562860" FOLDED="true" ID="ID_1465184281" MODIFIED="1522945929874" TEXT="spring boot">
+<node CREATED="1512356556424" HGAP="23" ID="ID_349723697" MODIFIED="1524497381850" POSITION="right" TEXT="java" VSHIFT="-46">
+<node CREATED="1512356562860" FOLDED="true" ID="ID_1465184281" MODIFIED="1524580028269" TEXT="spring boot">
 <node CREATED="1512356669155" ID="ID_1918645245" MODIFIED="1512356700975" TEXT="application">
 <node CREATED="1513162909252" ID="ID_350826338" MODIFIED="1519715382374" TEXT="servlet">
 <node CREATED="1513162917749" ID="ID_56375897" MODIFIED="1513163007065">
@@ -445,7 +445,7 @@
 </node>
 <node CREATED="1513164951238" ID="ID_465364059" MODIFIED="1513334663147" TEXT="websocket">
 <node CREATED="1513164955472" ID="ID_658663340" MODIFIED="1519715395114" TEXT="configuration">
-<node CREATED="1513165208165" FOLDED="true" ID="ID_1023584811" MODIFIED="1513165331893" TEXT="interceptor">
+<node CREATED="1513165208165" ID="ID_1023584811" MODIFIED="1524497405606" TEXT="interceptor">
 <node CREATED="1513165271136" ID="ID_1011128246" MODIFIED="1513165318408">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1257,7 +1257,7 @@
 </node>
 <node CREATED="1519715570266" ID="ID_583080492" MODIFIED="1519715572457" TEXT="netty"/>
 </node>
-<node CREATED="1512356565874" ID="ID_383392285" MODIFIED="1512357555490" TEXT="camel">
+<node CREATED="1512356565874" FOLDED="true" ID="ID_383392285" MODIFIED="1524497383978" TEXT="camel">
 <node CREATED="1512356900818" HGAP="15" ID="ID_1646289384" MODIFIED="1512357521676" TEXT="route" VSHIFT="-1">
 <node CREATED="1512357144560" ID="ID_426823124" MODIFIED="1512357146585" TEXT="main">
 <node CREATED="1512357148506" ID="ID_498549900" MODIFIED="1512357216341">
@@ -1504,6 +1504,40 @@
 <node CREATED="1512367044159" ID="ID_407169852" MODIFIED="1512367639141" TEXT="chapter 5.3.2&#xa;errorHandler(defaultErrorHandler() .asyncDelayedRedelivery() .maximumRedeliveries(5) .redeliveryDelay(1000).retryAttemptedLogLevel(LoggingLevel.WARN) &#x9;&#x9;);&#xa;&#xa;onException(Exception.class).maximumRedeliveries(3)&#xa;.handled(true)&#xa;.process(new TxtExceptionResponse())&#xa;.to(&quot;file:data/error?fileName=report-${header.Date}.dat&amp;fileExist=Append&quot;);"/>
 </node>
 <node CREATED="1512368729383" ID="ID_246633166" MODIFIED="1512368730510" TEXT="8.6 The Load Balancer EIP"/>
+</node>
+<node CREATED="1524580068303" ID="ID_456017559" MODIFIED="1524580074136" TEXT="apache quartz">
+<node CREATED="1524580077096" ID="ID_1733725867" MODIFIED="1524580219129">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Java8&#29305;&#24615;&#20043;&#26032;&#30340;&#26085;&#26399;&#26102;&#38388; API
+    </p>
+    <ul>
+      <li>
+        https://blog.csdn.net/TimHeath/article/details/71326329
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      Apache Quartz
+    </p>
+    <ul>
+      <li>
+        https://github.com/davidkiss/spring-boot-quartz-demo
+      </li>
+      <li>
+        https://www.google.com.sg/amp/s/icecarev.com/2016/11/05/spring-boot-1-4-and-quartz-scheduling-runtime-created-job-instances-from-a-configuration-file/amp/
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1523462761819" ID="ID_473915213" MODIFIED="1523462775067" POSITION="right" TEXT="Spring Cloud"/>
@@ -2340,6 +2374,53 @@
     <p style="text-align: left">
       client:mongo --host 127.0.0.1:27017
     </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1524385996601" ID="ID_1900422575" MODIFIED="1524386005084" POSITION="left" TEXT="Zookeeper &amp; Kafka">
+<node CREATED="1524386005922" ID="ID_1527014996" MODIFIED="1524386036402">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26597;&#30475;&#31471;&#21475;&#21344;&#29992;&#24773;&#20917;&#65306;lsof -i tcp:2181
+    </p>
+    <p>
+      &#26432;&#27515;&#36827;&#31243;&#65306; kill PID
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1524386062467" ID="ID_731942309" MODIFIED="1524497377241">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      zookeeper&#37197;&#32622;&#25991;&#20214;&#21450;&#21629;&#20196;
+    </p>
+    <ul>
+      <li>
+        bin/zkServer.sh start-foreground&#65288;&#21551;&#21160;server&#65289;
+      </li>
+      <li>
+        bin/zkCli.sh
+      </li>
+    </ul>
+    <p>
+      kafka&#37197;&#32622;&#21450;&#21629;&#20196;
+    </p>
+    <ul>
+      <li>
+        bin/kafka-server-start.sh config/server.properties
+      </li>
+    </ul>
   </body>
 </html>
 </richcontent>
