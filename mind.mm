@@ -1535,8 +1535,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1982,7 +1981,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1523198954905" FOLDED="true" ID="ID_1220753390" MODIFIED="1523462709219" TEXT="docker &#x5e38;&#x7528;&#x547d;&#x4ee4;">
+<node CREATED="1523198954905" ID="ID_1220753390" MODIFIED="1524751569159" TEXT="docker &#x5e38;&#x7528;&#x547d;&#x4ee4;">
 <node CREATED="1523287824098" ID="ID_522257684" MODIFIED="1523287912901">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2328,6 +2327,24 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1524755252731" ID="ID_379088145" MODIFIED="1524840868496">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        docker run --name postgreSql -e POSTGRES_PASSWORD=postgres -d -p 5432:5432&#160;&#160;postgres
+      </li>
+      <li>
+        docker run -p 3306:3306 --name mysql-db -e MYSQL_ROOT_PASSWORD=root -d&#160;&#160;mysql:5.7
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1523635186412" ID="ID_1992387291" MODIFIED="1523635191246" POSITION="left" TEXT="&#x52a0;&#x5bc6;&#x65b9;&#x5f0f;">
@@ -2341,8 +2358,7 @@
       &#23545;&#31216;&#21152;&#23494;&#65306;AES 128&#20301;&#21152;&#23494;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1523635263628" ID="ID_1514955510" MODIFIED="1523635412516">
 <richcontent TYPE="NODE"><html>
@@ -2354,8 +2370,7 @@
       &#19981;&#23545;&#31216;&#21152;&#23494;&#31639;&#27861;REA&#160;&#160;&#20844;&#38053; &#31169;&#38053;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1523979659798" ID="ID_74782071" MODIFIED="1523979666863" POSITION="left" TEXT="mongoDB">
@@ -2375,8 +2390,7 @@
       client:mongo --host 127.0.0.1:27017
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1524385996601" ID="ID_1900422575" MODIFIED="1524386005084" POSITION="left" TEXT="Zookeeper &amp; Kafka">
@@ -2393,8 +2407,7 @@
       &#26432;&#27515;&#36827;&#31243;&#65306; kill PID
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1524386062467" ID="ID_731942309" MODIFIED="1524497377241">
 <richcontent TYPE="NODE"><html>
@@ -2422,8 +2435,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
